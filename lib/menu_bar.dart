@@ -1,11 +1,8 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'package:website/utils/utils.dart';
 import 'components/colors.dart';
-import 'components/typography.dart';
 
 class MenuBar extends StatelessWidget {
   @override
@@ -60,8 +57,7 @@ class MenuBar extends StatelessWidget {
                   child: Text("首页",
                       style: TextStyle(
                           fontSize: 16,
-                          color: navLinkColor,
-                          fontFamily: fontFamily)),
+                          color: navLinkColor,)),
                 ),
               ),
             ),
@@ -75,11 +71,10 @@ class MenuBar extends StatelessWidget {
                 onTap: () => openUrl(""),
                 child: Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16),
-                  child: Text("文章",
+                  child: Text("Android",
                       style: TextStyle(
                           fontSize: 16,
-                          color: navLinkColor,
-                          fontFamily: fontFamily)),
+                          color: navLinkColor,)),
                 ),
               ),
             ),
@@ -92,16 +87,100 @@ class MenuBar extends StatelessWidget {
               child: GestureDetector(
                 onTap: () => openUrl(""),
                 child: Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 16),
-                    child: Text("关于",
-                        style: TextStyle(
-                            fontSize: 16,
-                            color: navLinkColor,
-                            fontFamily: fontFamily))),
+                  padding: EdgeInsets.symmetric(horizontal: 16),
+                  child: Text("大数据",
+                      style: TextStyle(
+                          fontSize: 16,
+                          color: navLinkColor)),
+                ),
               ),
             ),
           ),
-
+          ResponsiveVisibility(
+            visible: false,
+            visibleWhen: [Condition.largerThan(name: MOBILE)],
+            child: MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: GestureDetector(
+                onTap: () => openUrl(""),
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16),
+                  child: Text("算法",
+                      style: TextStyle(
+                          fontSize: 16,
+                          color: navLinkColor)),
+                ),
+              ),
+            ),
+          ),
+          ResponsiveVisibility(
+            visible: false,
+            visibleWhen: [Condition.largerThan(name: MOBILE)],
+            child: MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: GestureDetector(
+                onTap: () => openUrl(""),
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16),
+                  child: Text("Go",
+                      style: TextStyle(
+                          fontSize: 16,
+                          color: navLinkColor)),
+                ),
+              ),
+            ),
+          ),
+          ResponsiveVisibility(
+            visible: false,
+            visibleWhen: [Condition.largerThan(name: MOBILE)],
+            child: MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: GestureDetector(
+                onTap: () => openUrl(""),
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16),
+                  child: Text("项目管理",
+                      style: TextStyle(
+                          fontSize: 16,
+                          color: navLinkColor)),
+                ),
+              ),
+            ),
+          ),
+          ResponsiveVisibility(
+            visible: false,
+            visibleWhen: [Condition.largerThan(name: MOBILE)],
+            child: MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: GestureDetector(
+                onTap: () => openUrl(""),
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16),
+                  child: Text("城市扎根",
+                      style: TextStyle(
+                          fontSize: 16,
+                          color: navLinkColor)),
+                ),
+              ),
+            ),
+          ),
+          ResponsiveVisibility(
+            visible: false,
+            visibleWhen: [Condition.largerThan(name: MOBILE)],
+            child: MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: GestureDetector(
+                onTap: () => openUrl(""),
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16),
+                  child: Text("其他",
+                      style: TextStyle(
+                          fontSize: 16,
+                          color: navLinkColor)),
+                ),
+              ),
+            ),
+          ),
           MouseRegion(
             cursor: SystemMouseCursors.click,
             child: GestureDetector(

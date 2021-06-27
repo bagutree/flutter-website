@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:website/simple_animations_package.dart';
+import 'package:website/bubble_anim/simple_animations_package.dart';
 import 'package:website/particle_flutter/particles.dart' as particle;
 
 class ParticleBackgroundPage extends StatelessWidget {

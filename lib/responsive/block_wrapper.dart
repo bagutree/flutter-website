@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
-import 'components/spacing.dart';
+import '../components/spacing.dart';
 
 /// A convenience widget to wrap main blocks with:
 ///  - ResponsiveContraints for max width.
