@@ -250,6 +250,14 @@ class TeamInfo extends StatelessWidget {
                         text: "Ace",
                         style: bodyLinkTextStyle),
                     TextSpan(text: "，", style: bodyTextStyle),
+                    TextSpan(
+                        recognizer: TapGestureRecognizer()
+                          ..onTap = () {
+                            openUrl("https://juejin.cn/user/1380642334182157/posts");
+                          },
+                        text: "荒天帝",
+                        style: bodyLinkTextStyle),
+                    TextSpan(text: "，", style: bodyTextStyle),
                   ]),
                   textAlign: TextAlign.center,
                 ),

@@ -88,6 +88,40 @@ class MenuBar extends StatelessWidget {
                 onTap: () => openUrl(""),
                 child: Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16),
+                  child: Text("Flutter",
+                      style: TextStyle(
+                          fontSize: 16,
+                          color: navLinkColor)),
+                ),
+              ),
+            ),
+          ),
+          ResponsiveVisibility(
+            visible: false,
+            visibleWhen: [Condition.largerThan(name: MOBILE)],
+            child: MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: GestureDetector(
+                onTap: () => openUrl(""),
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16),
+                  child: Text("Go",
+                      style: TextStyle(
+                          fontSize: 16,
+                          color: navLinkColor)),
+                ),
+              ),
+            ),
+          ),
+          ResponsiveVisibility(
+            visible: false,
+            visibleWhen: [Condition.largerThan(name: MOBILE)],
+            child: MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: GestureDetector(
+                onTap: () => openUrl(""),
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16),
                   child: Text("大数据",
                       style: TextStyle(
                           fontSize: 16,
@@ -113,23 +147,7 @@ class MenuBar extends StatelessWidget {
               ),
             ),
           ),
-          ResponsiveVisibility(
-            visible: false,
-            visibleWhen: [Condition.largerThan(name: MOBILE)],
-            child: MouseRegion(
-              cursor: SystemMouseCursors.click,
-              child: GestureDetector(
-                onTap: () => openUrl(""),
-                child: Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 16),
-                  child: Text("Go",
-                      style: TextStyle(
-                          fontSize: 16,
-                          color: navLinkColor)),
-                ),
-              ),
-            ),
-          ),
+
           ResponsiveVisibility(
             visible: false,
             visibleWhen: [Condition.largerThan(name: MOBILE)],
@@ -173,7 +191,7 @@ class MenuBar extends StatelessWidget {
                 onTap: () => openUrl(""),
                 child: Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16),
-                  child: Text("其他",
+                  child: Text("大厂内推",
                       style: TextStyle(
                           fontSize: 16,
                           color: navLinkColor)),

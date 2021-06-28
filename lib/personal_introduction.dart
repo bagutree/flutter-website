@@ -105,10 +105,10 @@ List<PersonalInfo> PERSONAL_LISTS_1 = [
 List<PersonalInfo> PERSONAL_LISTS_2 = [
   PersonalInfo("assets/images/head-ww.png", "薇薇", "Android工程师",
       "就职于某科技媒体公司，熟悉Java、Kotlin等；简书程序员专题主编，业余喜欢摄影、咖啡等。希望在越来越卷的时候，继续保持初心。公众号：小彤花园。座右铭：首先自己要发光发热"),
-  PersonalInfo("assets/images/head-haobo.png", "大泊", "大数据开发平台工程师",
-      "目前就职于一家海外直播平台公司，任大数据平台开发工程师一职。对大数据生态各个组件有一定的理解。技术栈包括但不限于：HDFS、yarn、hbase、hive、spark、flink、flume、kafka等大数据组件。对Java、Scala都有一定的理解。致力于深耕大数据领域，不断丰富知识体系，用最直白的方式传播知识。加入八股树，夯实知识体系，持续学习输出，打造互联网顶尖技术领域输出团队。个人爱好：打球、看书、刷b站。"),
-  PersonalInfo("assets/images/head-haozai.jpeg", "浩仔", "后端开发工程师",
-      "目前就职于一家海外浏览器公司，任Go后端开发工程师一职。喜欢Go语言，熟悉想关工具链，并一直在学习实践中。加入八股树希望与各位一起学习进步，结交更多的朋友。业余爱好囚徒健身，乒乓球，羽毛球运动。"),
+  PersonalInfo("assets/images/head-di.png", "荒天帝", "Android专家",
+      "9年Android经验，擅长各种类型的App开发及性能优化，擅长面试辅导及面试经验总结，擅长人脉搭建与拓展,职场生存和个人能力提升，希望通过该组织光交志同道合的好友。初心：一起做有意义的事并争取实现个人，组织的价值，希望我们可以成为互联网第一大知识分享组织"),
+  PersonalInfo("assets/images/head-ace.png", "Ace", "Android工程师",
+      "就职于某大厂从事应用程序开发工作。熟悉Java、Kotlin等开发语言。对于Jetpack以及应用架构有比较深入的理解。业余喜欢读书、音乐等。长期主义者、对于高效工作执着。希望通过该组织认识更多热爱技术分享的小伙伴。共同学习持续提升。个人公众号：OAOAAce"),
 ];
 
 List<PersonalInfo> PERSONAL_LISTS_3 = [
@@ -119,8 +119,10 @@ List<PersonalInfo> PERSONAL_LISTS_3 = [
 ];
 
 List<PersonalInfo> PERSONAL_LISTS_4 = [
-  PersonalInfo("assets/images/head-ace.png", "Ace", "Android工程师",
-      "就职于某大厂从事应用程序开发工作。熟悉Java、Kotlin等开发语言。对于Jetpack以及应用架构有比较深入的理解。业余喜欢读书、音乐等。长期主义者、对于高效工作执着。希望通过该组织认识更多热爱技术分享的小伙伴。共同学习持续提升。个人公众号：OAOAAce"),
+  PersonalInfo("assets/images/head-haobo.png", "大泊", "大数据开发平台工程师",
+      "目前就职于一家海外直播平台公司，任大数据平台开发工程师一职。对大数据生态各个组件有一定的理解。技术栈包括但不限于：HDFS、yarn、hbase、hive、spark、flink、flume、kafka等大数据组件。对Java、Scala都有一定的理解。致力于深耕大数据领域，不断丰富知识体系，用最直白的方式传播知识。加入八股树，夯实知识体系，持续学习输出，打造互联网顶尖技术领域输出团队。个人爱好：打球、看书、刷b站。"),
+  PersonalInfo("assets/images/head-haozai.png", "浩仔", "后端开发工程师",
+      "目前就职于一家海外浏览器公司，任Go后端开发工程师一职。喜欢Go语言，熟悉想关工具链，并一直在学习实践中。加入八股树希望与各位一起学习进步，结交更多的朋友。业余爱好囚徒健身，乒乓球，羽毛球运动。"),
   PersonalInfo(
       "assets/images/head-dong.png", "刘强东", "设计师", "目前失业，天南第一键修，梦想在家工作"),
 ];
