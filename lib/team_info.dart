@@ -197,14 +197,6 @@ class TeamInfo extends StatelessWidget {
                     TextSpan(
                         recognizer: TapGestureRecognizer()
                           ..onTap = () {
-                            openUrl("");
-                          },
-                        text: "arige",
-                        style: bodyLinkTextStyle),
-                    TextSpan(text: "，", style: bodyTextStyle),
-                    TextSpan(
-                        recognizer: TapGestureRecognizer()
-                          ..onTap = () {
                             openUrl("https://www.jianshu.com/u/3c084cab313c");
                           },
                         text: "大泊",
@@ -224,6 +216,14 @@ class TeamInfo extends StatelessWidget {
                             openUrl("");
                           },
                         text: "浩仔",
+                        style: bodyLinkTextStyle),
+                    TextSpan(text: "，", style: bodyTextStyle),
+                    TextSpan(
+                        recognizer: TapGestureRecognizer()
+                          ..onTap = () {
+                            openUrl("");
+                          },
+                        text: "arige",
                         style: bodyLinkTextStyle),
                     TextSpan(text: "，", style: bodyTextStyle),
                     TextSpan(
@@ -258,6 +258,13 @@ class TeamInfo extends StatelessWidget {
                         text: "荒天帝",
                         style: bodyLinkTextStyle),
                     TextSpan(text: "，", style: bodyTextStyle),
+                    TextSpan(
+                        recognizer: TapGestureRecognizer()
+                          ..onTap = () {
+                            openUrl("");
+                          },
+                        text: "梁严",
+                        style: bodyLinkTextStyle),
                   ]),
                   textAlign: TextAlign.center,
                 ),
